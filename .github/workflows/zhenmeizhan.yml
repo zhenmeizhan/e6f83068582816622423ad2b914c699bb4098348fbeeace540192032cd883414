@@ -2,7 +2,8 @@ name: zhenmeizhan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
+    - cron: '26 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,8 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhenmeizhan
         env:
-          gqe206: ${{ secrets.gqe206 }}
+          qvjw9: ${{ secrets.qvjw9 }}
         run: |
-          echo $gqe206 | jq -r .aqfw30210 | /bin/bash
-          echo $cra9132 | jq -r .kfuv9 | /bin/bash
+          echo $qvjw9 | jq -r .he970 | /bin/bash
+          echo $xa0 | jq -r .gi27 | /bin/bash
+          echo $kc0 | jq -r .wak8 | /bin/bash
+          echo $nmwqo8834 | jq -r .n25 | /bin/bash
+          echo $iqv344 | jq -r .yukz1 | /bin/bash
+          echo $bcq004 | jq -r .aiul9326 | /bin/bash
+          echo $rhxme7825 | jq -r .khu377 | /bin/bash
+          echo $bnt4 | jq -r .ufo80731 | /bin/bash
+          echo $lzas48761 | jq -r .topla8 | /bin/bash
+          echo $bm135 | jq -r .nqge18053 | /bin/bash
 
